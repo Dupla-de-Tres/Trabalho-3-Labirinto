@@ -1,5 +1,5 @@
 # Trabalho-3-Labirinto
-Trabalho 3 de AEDS - Labirinto por Profundidade e Largura, implementado em C++
+Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS), implementado em C++
 
 
 <div style="display: inline-block;">
@@ -17,4 +17,12 @@ Trabalho 3 de AEDS - Labirinto por Profundidade e Largura, implementado em C++
 
 <h2>Introdução </h2>
 
-<p> Por muitos anos, foram criados jogos, principalmente 2d, no qual a sua movimentação se baseava em oito direções: Acima, abaixo, direita, esquerda e todas as diagonais. Atualmente, muitos jogos ainda tendem a seguir essa ideia, mas no geral a movimentação de um personagem tende a ser para todos os ângulos, ou seja, 360°. Dito isso, o Labirinto Recorrente utiliza de matrizes NxN formada por variados caminhos que podem aumentar sua vida, diminuir sua vida, acrescentar sua quantidade de itens ou bloquear o seu caminho. </p>
+<p> No mundo atual, é possível solucionar um mesmo problema através de diferentes formas, especialmente na área da programação. Com isso, o trabalho do Labirinto foi resolvido através de três formas distintas, visando testar qual labirinto irá percorrer a matriz com o menor tempo e também com o menor custo computacional.  </p>
+
+<p> Labirinto Randômico: O usuário seleciona uma posição da matriz, inserindo uma linha e uma coluna. A partir disso, o programa irá analisar as posições que não contenham um bloqueio de caminho para, depois, sortear uma posição para ser percorrida, até que se encontre o ponto de saída (?).   </p>
+
+<p> Labirinto por Profundidade(DFS): O programa começa percorrendo a matriz a partir da primeira posição, e logo depois pula para a segunda posição da linha, permanecendo na primeira coluna, até a segunda  </p>
+
+<p> Labirinto por Largura(BFS): </p>
+
+
