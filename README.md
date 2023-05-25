@@ -21,9 +21,9 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 
 * ``` Labirinto Randômico ```: O usuário seleciona uma posição da matriz, inserindo uma linha e uma coluna. A partir disso, o programa irá analisar as posições que não contenham um bloqueio de caminho para, depois, sortear uma posição para ser percorrida, até que se encontre o ponto de saída (?).
 
-* ``` Labirinto por Profundidade(DFS) ```: Labirinto por Profundidade(DFS): O programa começa percorrendo a matriz a partir da primeira posição, e logo depois pula para a segunda posição da linha, permanecendo na primeira coluna, até a segunda  
+* ``` Labirinto por Profundidade(DFS) ```: Labirinto por Profundidade(DFS): O programa começa percorrendo a matriz a partir da primeira posição, e logo depois pula para a segunda posição da linha, permanecendo na primeira coluna, até a segunda posição da coluna, na primeira posição da linha. O programa 
 
-* ``` Labirinto por Largura(BFS) ```: Exibe a mensagem de entrada do programa; 
+* ``` Labirinto por Largura(BFS) ```: 
 
 
 
