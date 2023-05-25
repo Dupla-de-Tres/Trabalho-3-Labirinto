@@ -1,4 +1,4 @@
-# Trabalho-3-Labirinto
+# Trabalho 3 - Labirinto(BFS e DFS)
 Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS), implementado em C++
 
 
