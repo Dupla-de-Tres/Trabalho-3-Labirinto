@@ -32,6 +32,11 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
   
 <p> Uma vez testado a passagem pelos três labirintos, será analisado qual foi o método de passagem no labirinto que teve o menor tempo e o menor custo computacional. No final de cada teste, é apresentado os caminhos que foram percorridos e se o ponto de saída foi alcançado.
   
+<h2> Movimentação </h2>  
+  
+<p> pode caminhar pela direita, esquerda, acima, abaixo, diagonal inferior esquerda, diagonal inferior direita, diagonal superior esquerda e diagonal superior direita</p>  
+  
+  
 <p> </p> 
 <h2>  Implementação </h2> 
 
@@ -55,7 +60,14 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 * ``` input.data ```: Contém os labirintos utilizados no programa;
 * ``` output.data ```: Exibe o resultado do labirinto após ser percorrido.
 
+<h2>Funções </h2>
 
+<h3> Labirinto Randômico: </h3>
+
+* ``` void ReadFile(); ```: Lê o arquivo que contém a matriz; 
+* ``` int Tam(); ```: Lê o tamanho da matriz;
+* ``` void WalkMatrix(); ```: Caminha pela matriz de forma aleatória. O sistema realiza um sorteio de 0 a 7 para obter a posição no qual a pessoa irá caminhar. Ela pode caminhar pelas oito posições detalhadas no tópico Movimentação. Com o número obtido, o sistema irá, através do switch case, realizar o caminhamento através do número sorteado. 
+* ``` void WalkMatrix(); ```: Esta função pega cada movimento realizado pela função WalkMatrix e demarca o caminho percorrido com "X" e o caminho não percorrido com "@". Logo depois, ela printa a matriz para mostrar o resultado final após o caminhamento pelo labirinto, indicando se o ponto final foi alcançado ou não.
 
 
 <h2>Compilação e Execução do Programa</h2>
