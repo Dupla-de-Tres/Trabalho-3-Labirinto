@@ -21,9 +21,20 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 
 * ``` Labirinto Randômico ```: O usuário seleciona uma posição da matriz, inserindo uma linha e uma coluna. A partir disso, o programa irá analisar as posições que não contenham um bloqueio de caminho para, depois, sortear uma posição para ser percorrida, até que se encontre o ponto de saída (?).
 
-* ``` Labirinto por Profundidade(DFS) ```: Labirinto por Profundidade(DFS): O programa começa percorrendo a matriz a partir da primeira posição, e logo depois pula para a segunda posição da linha, permanecendo na primeira coluna, até a segunda posição da coluna, na primeira posição da linha. O programa 
+* ``` Labirinto por Profundidade(DFS) ```: O programa começa percorrendo a matriz a partir da primeira posição, e tende a seguir um caminho em linha reta, começando pela horizontal - direita. Caso não seja encontrado o ponto de saída (?), o sistema irá percorrer em linha reta até bater em uma parede, no qual será realizado o cálculo para caminhar em um percurso não realizado anteriormente.
 
-* ``` Labirinto por Largura(BFS) ```: 
+* ``` Labirinto por Largura(BFS) ```: O programa começa percorrendo a matriz a partir da primeira posição, e logo depois pula para a segunda posição da linha, permanecendo na primeira coluna, até a segunda posição da coluna, na primeira posição da linha. O programa continua percorrendo nesse sentido diagonalmente, começando por baixo e terminando em cima até encontrar o ponto de saída (?). Caso haja alguma parede bloqueando o caminho diagonal, será realizado um novo caminho desviando da parede e voltando para a diagonal original. Ademais, se houver um perigo neste caminho. o proornar para a posição inicial.
 
+
+<h2>Objetivo </h2>
+
+<p> Para vencer o labirinto através das três formas de implementação de percurso, é necessário chegar ao ponto de saída (?) através de caminhos livres para passagem (1), no qual serão enfrentados bloqueios de caminhos, representados por paredes (#) e perigos (*), que retorna a pessoa para a posição inicial. 
+  
+<p> Uma vez testado a passagem pelos três labirintos, será analisado qual foi o método de passagem no labirinto que teve o menor tempo e o menor custo computacional. No final de cada teste, é apresentado os caminhos que foram percorridos e se o ponto de saída foi alcançado.
+  
+  
+<h2>Implementação </h2> 
+
+<p> 
 
 
