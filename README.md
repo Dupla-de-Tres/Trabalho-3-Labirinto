@@ -32,10 +32,30 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
   
 <p> Uma vez testado a passagem pelos três labirintos, será analisado qual foi o método de passagem no labirinto que teve o menor tempo e o menor custo computacional. No final de cada teste, é apresentado os caminhos que foram percorridos e se o ponto de saída foi alcançado.
   
-<br>
+<p> </p> 
 <h2>  Implementação </h2> 
 
-<p>  </p>
+* ``` Posição das matrizes ```: Foram representadas por uma struct "pos" que verifica a posição atual da matriz que está sendo percorrida. A struct foi utilizada nos três tipos de labirinto.
+
+* ``` Labirinto Randômico ```: Foi necessário a utilização de apenas um vector implementado em uma classe para executar o Labirinto Randômico.
+
+* ``` Labirinto por Profundidade(DFS) ```:
+
+* ``` Labirinto por Largura(BFS) ```: Foram necessários a utilização de dois vectors e uma fila, implementados em uma classe, para realizar a implementação do Labirinto por Largura(BFS).
+
+<h2>Arquivos </h2>
+
+* ``` main.cpp ```: Arquivo e função principal do sistema que recebe os arquivos das classes dos três labirintos para execução do programa;
+* ``` Labirinto.hpp ```: Arquivo que cria as funções utilizadas no labirinto randômico;
+* ``` Labirinto.cpp ```: Arquivo que implementa as funções criadas no Labirinto.hpp;
+* ``` LabirintoLarg.hpp ```: Arquivo que cria as funções utilizadas no labirinto por largura(BFS);
+* ``` LabirintoLarg.cpp ```: Arquivo que implementa as funções criadas no LabirintoLarg.hpp;
+* ``` LabirintoProf.hpp ```: Arquivo que cria as funções utilizadas no labirinto por profundidade(DFS);
+* ``` LabirintoProf.cpp ```: Arquivo que implementa as funções criadas no LabirintoProf.hpp;
+* ``` input.data ```: Contém os labirintos utilizados no programa;
+* ``` output.data ```: Exibe o resultado do labirinto após ser percorrido.
+
+
 
 
 <h2>Compilação e Execução do Programa</h2>
