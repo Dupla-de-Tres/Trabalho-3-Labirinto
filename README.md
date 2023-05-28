@@ -31,11 +31,7 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 <p> Para vencer o labirinto através das três formas de implementação de percurso, é necessário chegar ao ponto de saída (?) através de caminhos livres para passagem (1), no qual serão enfrentados bloqueios de caminhos, representados por paredes (#) e perigos (*), que retorna a pessoa para a posição inicial. 
   
 <p> Uma vez testado a passagem pelos três labirintos, será analisado qual foi o método de passagem no labirinto que teve o menor tempo e o menor custo computacional. No final de cada teste, é apresentado os caminhos que foram percorridos e se o ponto de saída foi alcançado.
-  
-<h2> Movimentação </h2>  
-  
-<p> pode caminhar pela direita, esquerda, acima, abaixo, diagonal inferior esquerda, diagonal inferior direita, diagonal superior esquerda e diagonal superior direita</p>  
-  
+
   
 <p> </p> 
 <h2>  Implementação </h2> 
@@ -44,7 +40,7 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 
 * ``` Labirinto Randômico ```: Foi necessário a utilização de apenas um vector implementado em uma classe para executar o Labirinto Randômico.
 
-* ``` Labirinto por Profundidade(DFS) ```:
+* ``` Labirinto por Profundidade(DFS) ```: Foi necessário apenas a utilização de um vector (caminho), implementado em uma classe, para realizar a implementação do Labirinto por Profundidade(DFS).
 
 * ``` Labirinto por Largura(BFS) ```: Foram necessários a utilização de dois vectors e uma fila, implementados em uma classe, para realizar a implementação do Labirinto por Largura(BFS).
 
