@@ -128,24 +128,10 @@ Resultados para as três matrizes utilizadas no teste.
 **Matriz 3:** 6 passos </br>
 
 
-### Diferenças entre o BFS e o DFS
-
-Já no BFS, a movimentação é feita pela diagonal, começando de cima para baixo
-* Se válido, ir para cima
-* Se válido, ir para esquerda
-* Se válido, ir para direita
-* Se válido, ir para baixo
-
-Durante a movimentação, o DFS segue a seguinte prioridade:
-* Vá para baixo, até que não seja mais possível;
-* Vá para direita, até que não seja mais possível;
-* Vá para esquerda, até que não seja mais possível;
-* Vá para cima, até que não seja mais possível;
-
 ## Imprimindo resultados:
 
-* No fim de cada método, será impresso o tempo de execução (medido em milisegundos) do método em questão.
-* Toda a memória utilizada é devolvida de volta ao Sistema Operacional e o arquivo fechado.
+* No fim de cada método, será impresso o o caminho percorrido pelo método selecionado.
+* Também é possível selecionar a opção 4 que exibe uma comparação de desempenho entre os diferentes métodos.
 
 
 
