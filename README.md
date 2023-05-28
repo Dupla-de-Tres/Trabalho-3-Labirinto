@@ -88,7 +88,7 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 * ``` void CamPerc(); ```: Esta função pega cada movimento realizado pela função WalkMatrix e demarca o caminho percorrido com "X" e o caminho não percorrido com "@". Logo depois, ela printa a matriz para mostrar o resultado final após o caminhamento pelo labirinto, indicando se o ponto final foi alcançado ou não;
 * ``` bool VerCam(int i, int j); ```: Verifica e mostra a fila armazenada no vector caminho.
 
-<p>Também é possível executar o programa através do site de hospedagem de código, Replit, onde foi realizado a programação do código do "O Labirinto Recorrente": <link>https://replit.com/@OsBrabosSoltos/Trabalho-3-Labirinto#src/main.cpp</link></p>
+<p>Também é possível executar o programa através do site de hospedagem de código, Replit, onde foi realizado a programação do código no site: <link>https://replit.com/@OsBrabosSoltos/Trabalho-3-Labirinto#src/main.cpp</link></p>
 
 # Comparação Randômico, Profundidade e Largura
 
