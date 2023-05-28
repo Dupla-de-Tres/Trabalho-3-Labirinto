@@ -88,14 +88,6 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 * ``` void CamPerc(); ```: Esta função pega cada movimento realizado pela função WalkMatrix e demarca o caminho percorrido com "X" e o caminho não percorrido com "@". Logo depois, ela printa a matriz para mostrar o resultado final após o caminhamento pelo labirinto, indicando se o ponto final foi alcançado ou não;
 * ``` bool VerCam(int i, int j); ```: Verifica e mostra a fila armazenada no vector caminho.
 
-<h2>Compilação e Execução do Programa</h2>
-
-<p>Através do makefile, é posição utilizar comandos que realizam o processo de compilação e execução do programa. A seguir, temos alguns comandos que podem ser utilizados:</p><br>
-
-* ``` make ```: Realiza a compilação do código por meio do gcc, no qual o resultado vai para a pasta build.</li><br>
-* ``` make run ```: Executa o programa armazenado na pasta build após este ser compilado.</li><br>
-* ``` make clean ```: Exclui a última compilação feita anteriormente na pasta build.</li><br><br>
-
 <p>Também é possível executar o programa através do site de hospedagem de código, Replit, onde foi realizado a programação do código do "O Labirinto Recorrente": <link>https://replit.com/@OsBrabosSoltos/Trabalho-3-Labirinto#src/main.cpp</link></p>
 
 # Comparação Randômico, Profundidade e Largura
@@ -158,17 +150,25 @@ Durante a movimentação, o DFS segue a seguinte prioridade:
 
 
 
-# CONCLUSÃO
+# Conclusão
 
 O custo computacional dos algoritmos de percorrimento de labirinto por profundidade e por largura depende do tamanho e complexidade do labirinto. O DFS pode ser mais eficiente em labirintos pequenos e simples, cujo o objetivo está convenientemente posicionado nos caminhos iniciais traçados pelo algoritmo, enquanto o BFS geralmente é mais eficiente em labirintos maiores e complexos, fornecendo uma solução ótima em termos de menor distância percorrida. O método randômico é o menos eficiente e possui um desempenho altamente variável.
 
-# REFERÊNCIAS
+<h2>Compilação e Execução do Programa</h2>
+
+<p>Através do makefile, é posição utilizar comandos que realizam o processo de compilação e execução do programa. A seguir, temos alguns comandos que podem ser utilizados:</p><br>
+
+* ``` make ```: Realiza a compilação do código por meio do gcc, no qual o resultado vai para a pasta build.</li><br>
+* ``` make run ```: Executa o programa armazenado na pasta build após este ser compilado.</li><br>
+* ``` make clean ```: Exclui a última compilação feita anteriormente na pasta build.</li><br><br>
+
+# Referências
 
 * ZIVIANI, N. Projeto De Algoritmos Com Implementações Em Pascal E C. 3. ed. São Paulo: Cengage Learning, 2011
 * https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c
 
-# AUTORES
-Victor Ramos de Albuquerque Cabral
-João Marcos Silva Hess
-Daniel Couto Fonseca
+# Autores
 
+<p>Daniel Couto Fonseca</p>
+<p>João Marcos Silva Hess</p>
+<p>Victor Ramos de Albuquerque Cabral</p>
