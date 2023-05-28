@@ -1,6 +1,6 @@
 # Trabalho 3 - Labirinto(BFS e DFS)
 Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS), implementado em C++
-
+<img height="20px" width="60px" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/> 
 
 <div style="display: inline-block;">
 <img align="center" height="20px" width="90px" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/> 
@@ -111,9 +111,9 @@ Para realizar uma análise comparativa entre os métodos utilizamos 3 labirintos
 
 O método randômico, embora tenha um desempenho variável, demonstra uma relação entre o tempo de execução e a distância entre o ponto de partida e o ponto de chegada no labirinto. Em outras palavras, quando o percurso é mais curto, espera-se uma média menor de passos para resolver o labirinto. Essa conclusão é baseada em dados gerados a partir de 50 execuções de cada labirinto, calculando posteriormente a média de desempenho.
 
-**Matriz 1:** 22 passos </br>
-**Matriz 2:** 15 passos </br>
-**Matriz 3:** 9 passos </br>
+**Matriz 1:** 45 passos </br>
+**Matriz 2:** 6 passos </br>
+**Matriz 3:** 13 passos </br>
 
 ## Profundidade 
 
@@ -121,9 +121,9 @@ O método de busca em profundidade (DFS) demonstra um desempenho superior quando
 
 Em resumo, o método de busca em profundidade apresenta melhor desempenho quando o perfil do labirinto favorece sua estratégia, permitindo encontrar soluções de forma eficiente. No entanto, sua desvantagem é que pode ser necessário explorar todos os caminhos antes de encontrar a solução ideal em casos onde o caminho inicial não leva ao objetivo.
 
-**Matriz 1:** 24 passos </br>
-**Matriz 2:** 15 passos </br>
-**Matriz 3:** 9 passos </br>
+**Matriz 1:** 15 passos </br>
+**Matriz 2:** 32 passos </br>
+**Matriz 3:** 34 passos </br>
 
 ## Largura
 
@@ -131,9 +131,9 @@ O método de busca em largura (BFS) apresenta melhor desempenho para casos em qu
 
 Resultados para as três matrizes utilizadas no teste.
 
-**Matriz 1:** 10 passos </br>
-**Matriz 2:** 12 passos </br>
-**Matriz 3:** 24 passos </br>
+**Matriz 1:** 35 passos </br>
+**Matriz 2:** 3 passos </br>
+**Matriz 3:** 6 passos </br>
 
 
 ### Diferenças entre o BFS e o DFS
@@ -160,5 +160,15 @@ Durante a movimentação, o DFS segue a seguinte prioridade:
 
 # CONCLUSÃO
 
-O custo computacional dos algoritmos de percorrimento de labirinto por profundidade e por largura depende do tamanho e complexidade do labirinto. O DFS pode ser mais eficiente em labirintos pequenos e simples, enquanto o BFS geralmente é mais eficiente em labirintos maiores e complexos, fornecendo uma solução ótima em termos de menor distância percorrida.
+O custo computacional dos algoritmos de percorrimento de labirinto por profundidade e por largura depende do tamanho e complexidade do labirinto. O DFS pode ser mais eficiente em labirintos pequenos e simples, cujo o objetivo está convenientemente posicionado nos caminhos iniciais traçados pelo algoritmo, enquanto o BFS geralmente é mais eficiente em labirintos maiores e complexos, fornecendo uma solução ótima em termos de menor distância percorrida. O método randômico é o menos eficiente e possui um desempenho altamente variável.
+
+# REFERÊNCIAS
+
+* ZIVIANI, N. Projeto De Algoritmos Com Implementações Em Pascal E C. 3. ed. São Paulo: Cengage Learning, 2011
+* https://medium.com/analytics-vidhya/a-quick-explanation-of-dfs-bfs-depth-first-search-breadth-first-search-b9ef4caf952c
+
+# AUTORES
+Victor Ramos de Albuquerque Cabral
+João Marcos Silva Hess
+Daniel Couto Fonseca
 
