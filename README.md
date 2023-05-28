@@ -73,7 +73,7 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 
 * ``` void ReadFile(); ```: Lê o arquivo que contém a matriz; 
 * ``` int Tam(); ```: Lê o tamanho da matriz;
-* ``` void WalkMatrix(); ```: Caminha pela matriz a partir de sua largura. Ela pega dois vectors fila e caminho, no qual fila são os caminhos que ainda serão acessados no labirinto e o caminho as posições já acessadas. Logo depois, o programa troca os sinais do labirinto para facilitar na hora de executar e no entendimento da função. A partir disso, o programa fixa uma posição e verifica: se for 1, a posição é colocada no vector de caminho; se for 0, a função acaba; se for -1 o dano vira caminho e os dois vectors são zerados. 
+* ``` void WalkMatrix(); ```: Caminha pela matriz a partir de sua largura. Ela pega dois vectors fila e caminho, no qual fila são os caminhos que ainda serão acessados no labirinto e o caminho as posições já acessadas. Logo depois, o programa troca os sinais do labirinto para facilitar na hora de executar e no entendimento da função. A partir disso, o programa fixa uma posição e verifica: se for 1, a posição é colocada no vector de caminho; se for 0, a função acaba; se for -1 o dano vira caminho e os dois vectors são zerados. Na condição final, ele pega as posições em volta de uma posição fixada e coloca no vector fila para ser acessada;
 * ``` void CamPerc(); ```: Esta função pega cada movimento realizado pela função WalkMatrix e demarca o caminho percorrido com "X" e o caminho não percorrido com "@". Logo depois, ela printa a matriz para mostrar o resultado final após o caminhamento pelo labirinto, indicando se o ponto final foi alcançado ou não.
 * ``` bool VerFila(int i, int j); ```: Verifica e mostra a fila armazenada no vector fila;
 * ``` bool VerCam(int i, int j); ```: Verifica e mostra o caminho armazenado no vector caminho.
@@ -82,7 +82,7 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 
 * ``` void ReadFile(); ```: Lê o arquivo que contém a matriz; 
 * ``` int Tam(); ```: Lê o tamanho da matriz;
-* ``` void WalkMatrix(); ```: Caminha pela matriz a partir de sua largura.;
+* ``` void WalkMatrix(); ```: Caminha pela matriz a partir de sua profundidade. Segue o mesmo princípio de vector e troca de sinais que o BFS, porém não é necessário a utilização de um vector fila. Na condição final, ela verifica se a próxima posição é uma posição acessível. Caso seja, ela continua seguindo em linha reta. Caso não seja, ela leva a uma outra condição que muda o direcionamento do caminho, sendo possíveis quatro direções: direita, esquerda, cima e baixo;
 * ``` void CamPerc(); ```: Esta função pega cada movimento realizado pela função WalkMatrix e demarca o caminho percorrido com "X" e o caminho não percorrido com "@". Logo depois, ela printa a matriz para mostrar o resultado final após o caminhamento pelo labirinto, indicando se o ponto final foi alcançado ou não;
 * ``` bool VerCam(int i, int j); ```: Verifica e mostra a fila armazenada no vector caminho.
 
