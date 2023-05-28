@@ -75,8 +75,8 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 * ``` int Tam(); ```: Lê o tamanho da matriz;
 * ``` void WalkMatrix(); ```: Caminha pela matriz a partir de sua largura. 
 * ``` void CamPerc(); ```: Esta função pega cada movimento realizado pela função WalkMatrix e demarca o caminho percorrido com "X" e o caminho não percorrido com "@". Logo depois, ela printa a matriz para mostrar o resultado final após o caminhamento pelo labirinto, indicando se o ponto final foi alcançado ou não.
-* ``` bool VerFila(int i, int j); ```:
-* ``` bool VerCam(int i, int j); ```:
+* ``` bool VerFila(int i, int j); ```: Verifica e mostra a fila armazenada no vector fila
+* ``` bool VerCam(int i, int j); ```: Verifica e mostra o caminho armazenado no vector caminho
 
 <h3> Labirinto por Profundidade(DFS): </h3>
 
