@@ -25,6 +25,12 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 
 * ``` Labirinto por Largura(BFS) ```: O programa começa percorrendo a matriz a partir da primeira posição, e logo depois pula para a segunda posição da linha, permanecendo na primeira coluna, até a segunda posição da coluna, na primeira posição da linha. O programa continua percorrendo nesse sentido diagonalmente, começando por baixo e terminando em cima até encontrar o ponto de saída (?). Caso haja alguma parede bloqueando o caminho diagonal, será realizado um novo caminho desviando da parede e voltando para a diagonal original. Ademais, se houver um perigo neste caminho. o proornar para a posição inicial.
 
+<p align="center">
+<img src="images/BFS_DFS.gif" 
+        alt="Picture" 
+        style="display: block; margin: 0 auto" />
+</p>
+
 <br>
 <h2>  Objetivo </h2>
 
