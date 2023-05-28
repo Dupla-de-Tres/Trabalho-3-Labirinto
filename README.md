@@ -100,10 +100,7 @@ Trabalho 3 de AEDS - Labirinto Randômico, por Largura(BFS) e Profundidade(DFS),
 
 # Comparação Randômico, Profundidade e Largura
 
-Para analisar o número de passos iremos utilizar 3 matrizes 5x5 com nosso objetivo "?" posicionado em posições diferentes, visando se aproximar de melhores ou piores casos para cada algoritmo.
-
-Utilizamos 3 labirintos para realizar a comparação entre os diferentes métodos
-
+Para realizar uma análise comparativa entre os métodos utilizamos 3 labirintos representados por matrizes 7x7 variando a distância do objetivo do ponto inicial e a disposição das paredes.
 <p align="center">
 <img src="images/matrizes_exemplo.png" 
         alt="Picture" 
