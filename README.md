@@ -131,7 +131,18 @@ Resultados para as três matrizes utilizadas no teste.
 ## Imprimindo resultados:
 
 * No fim de cada método, será impresso o o caminho percorrido pelo método selecionado.
+<p align="center">
+<img src="images/saida.png" 
+        alt="Picture" 
+        style="display: block; margin: 0 auto" />
+</p>
+        
 * Também é possível selecionar a opção 4 que exibe uma comparação de desempenho entre os diferentes métodos.
+<p align="center">
+<img src="images/saida1.png" 
+        alt="Picture" 
+        style="display: block; margin: 0 auto" />
+</p>
 
 
 
